@@ -7,7 +7,7 @@ test coverage inside the module. For a basic example see [basic maven project](.
 
 * Build the project, execute all the tests and analyze the project with SonarQube Scanner for Maven:
 
-        mvn clean verify sonar:sonar
+        mvn clean verify sonar:sonar -Dsonar.host.url=http://localhost:9001
 
 ## Description
 
